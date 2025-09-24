@@ -19,19 +19,23 @@ body {
 
 /* HERO CONTENT */
 #hero {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: #82a5ca;
     font-family: "Orbitron", sans-serif;
+    font-size: x-large;
+    text-shadow: 0px 1px black;
 }
 
 /* BUTTON */
 .btn {
-    width: 120px;
-    padding: 10px 0;
-    font-size: medium;
+    width: 200px;
+    padding: 15px;
+    font-size: large;
     font-weight: bold;
-    color: white;
-    background-color: black;
+    color: #82a5ca;
+    background-color: white;
     border: 2px solid black;
     border-radius: 8px;
     cursor: pointer;
@@ -41,8 +45,8 @@ body {
 
 .btn:hover {
     transform: scale(1.05);
-    background-color: black;
-    color: white;
+    background-color: #38414a;
+    color: #82a5ca;
 }
 
 /* UNDERLINE */
@@ -55,7 +59,9 @@ body {
 
 /* LOGO */
 #mainlogo {
-    width: 200px;
+    width: 300px;
+    padding:0;
+    
 }
 
 /* FOOTER */
@@ -67,6 +73,7 @@ body {
     font-weight: bold;
     padding: 20px 0;
     color: #82a5ca;
+    text-shadow: 0px 0px black;
 }
 
 #tnc h3 {
