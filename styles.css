@@ -1,0 +1,75 @@
+/*
+Challenge:
+1. Center the text and button
+2. Style the button according to the design.
+   Use a class to select the button.
+*/
+
+#hero{
+    padding:0;
+    color: #82a5ca;
+    text-align: center;
+    font-family: "orbitron", sans-serif;
+    font-size: x-large;
+
+}
+
+#title{
+    text-shadow: 0px 0px 4px black;
+}
+body {
+    
+    /*margin-top: 300px;
+    margin-bottom: 300px;*/
+    background-image: url("images/galaxy.webp");
+    /*background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTk0eDgzZDN4N2lmbjBtenQ3c3Fycm83OXJjNHJpYzlsYnQ4aGF6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1oC97Y22Gv0BpDEgHj/giphy.gif");
+    this link is copied by left clicking on gif and copying image address
+    */
+    background-size: cover;
+
+
+}
+
+.btn{
+    width:70px;
+    padding: 9px;
+    font-size: medium;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+
+    color: #82a5ca;
+}
+
+
+.orbitron-body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.underline{
+    text-decoration: underline; /* or use border-bottom: 2px solid white; */
+    /* to get distance from text */
+    text-underline-offset: 12px; 
+
+    /* text-decoration-thickness: 2px;    -to change thickness of underline */
+    /* text-decoration-color: white;      -to change color of underline    */
+
+}
+
+#mainlogo{
+    text-align: center;
+    width: 200px;
+}
+
+#tnc{
+    display:flex;
+    justify-content: center;
+
+    margin-top: 250px;
+    margin-bottom: 200px;
+    background-color: white;
+}
+
