@@ -11,16 +11,21 @@ body {
 
 /* HERO WRAPPER - centers hero vertically */
 #hero-wrapper {
-    flex: 1;                     /* fills remaining space */
+    flex:1;                 /* fills remaining space */
     display: flex;
+    flex-direction: column;
     justify-content: center;     /* horizontal center */
     align-items: center;         /* vertical center */
 }
 
 /* HERO CONTENT */
 #hero {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:190px;
+    /*justify-content: flex-start; /* starts below logo offset */
+    justify-content: center;
     text-align: center;
     color: #82a5ca;
     font-family: "Orbitron", sans-serif;
@@ -59,9 +64,9 @@ body {
 
 /* LOGO */
 #mainlogo {
-    width: 300px;
-    padding:0;
-    
+    display: block;          /* allows margin auto to work */
+    margin: 40px auto 0 auto; /* 40px top, auto left/right, 0 bottom */
+    width: 200px;            /* adjust as needed */
 }
 
 /* FOOTER */
