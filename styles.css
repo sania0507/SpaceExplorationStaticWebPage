@@ -6,6 +6,14 @@ Challenge:
 */
 
 #hero{
+     /* occupy most of the viewport */
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* center horizontally */
+    justify-content: center;   /* center vertically */
+
     padding:0;
     color: #82a5ca;
     text-align: center;
@@ -30,24 +38,26 @@ body {
 
 }
 
-.btn{
-    width:70px;
-    padding: 9px;
+.btn {
+    width: 120px;
+    padding: 10px 0;
     font-size: medium;
-    border: none;
-    font-family: inherit;
     font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-
     color: #82a5ca;
+    background-color: transparent;
+    border: 2px solid #82a5ca;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+    margin-top: 20px; /* space below the title */
 }
 
 .btn:hover {
     transform: scale(1.05);
-    background-color: black;
+    background-color: #82a5ca;
+    color: black;
 }
+
 
 
 .orbitron-body {
@@ -56,27 +66,24 @@ body {
   font-style: normal;
 }
 
-.underline{
-    text-decoration: underline; /* or use border-bottom: 2px solid white; */
-    /* to get distance from text */
-    text-underline-offset: 12px; 
-
-    /* text-decoration-thickness: 2px;    -to change thickness of underline */
-    /* text-decoration-color: white;      -to change color of underline    */
-
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #82a5ca;
 }
+
 
 #mainlogo{
     text-align: center;
     width: 200px;
 }
 
-#tnc{
-    display:flex;
-    justify-content: center;
-
-    margin-top: 250px;
-    margin-bottom: 200px;
+#tnc {
+    text-align: center;
+    padding: 20px 0;
     background-color: white;
+    font-weight: bold;
 }
+
 
