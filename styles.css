@@ -6,9 +6,9 @@ Challenge:
 */
 
 #hero{
-     /* occupy most of the viewport */
-    min-height: 80vh;
-
+    /* occupy most of the viewport */
+    /*min-height: 80vh; */
+    
     display: flex;
     flex-direction: column;
     align-items: center;       /* center horizontally */
