@@ -1,28 +1,30 @@
-/* Make body a column flex container filling viewport */
+/* BODY - flex column */
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;          /* full viewport height */
+    min-height: 100vh;           /* full viewport height */
     margin: 0;
     background-image: url("images/galaxy.webp");
     background-size: cover;
     background-position: center;
 }
 
-/* Hero takes all space above footer and centers content */
-#hero {
-    flex: 1;                     /* fill remaining space */
+/* HERO WRAPPER - centers hero vertically */
+#hero-wrapper {
+    flex: 1;                     /* fills remaining space */
     display: flex;
-    flex-direction: column;
-    align-items: center;         /* center horizontally */
-    justify-content: center;     /* center vertically */
-    text-align: center;
-    color: #82a5ca;
-    font-family: "orbitron", sans-serif;
-    font-size: x-large;
+    justify-content: center;     /* horizontal center */
+    align-items: center;         /* vertical center */
 }
 
-/* Button styling */
+/* HERO CONTENT */
+#hero {
+    text-align: center;
+    color: #82a5ca;
+    font-family: "Orbitron", sans-serif;
+}
+
+/* BUTTON */
 .btn {
     width: 120px;
     padding: 10px 0;
@@ -43,7 +45,7 @@ body {
     color: white;
 }
 
-/* Underline text */
+/* UNDERLINE */
 .underline {
     text-decoration: underline;
     text-underline-offset: 8px;
@@ -51,17 +53,17 @@ body {
     text-decoration-color: #82a5ca;
 }
 
-/* Logo size */
+/* LOGO */
 #mainlogo {
     width: 200px;
 }
 
-/* Footer styling */
+/* FOOTER */
 #tnc {
     width: 100%;
     background-color: white;
     text-align: center;
-    font-family: "orbitron", sans-serif;
+    font-family: "Orbitron", sans-serif;
     font-weight: bold;
     padding: 20px 0;
     color: #82a5ca;
