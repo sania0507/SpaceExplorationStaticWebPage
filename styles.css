@@ -43,9 +43,9 @@ body {
     padding: 10px 0;
     font-size: medium;
     font-weight: bold;
-    color: black;
-    background-color: #82a5ca ;
-    border: 2px solid #82a5ca;
+    color: #82a5ca;
+    background-color: black;
+    border: 2px solid black;
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.2s, background-color 0.2s, color 0.2s;
@@ -55,7 +55,7 @@ body {
 .btn:hover {
     transform: scale(1.05);
     background-color: black;
-    color: black;
+    color: white;
 }
 
 
